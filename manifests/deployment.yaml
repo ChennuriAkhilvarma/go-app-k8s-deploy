@@ -19,3 +19,5 @@ spec:
         image: 10.1.0.11:30002/ci-cd/go-app:13
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: harbor-secret
